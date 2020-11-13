@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CoffeeApp</string>
+    <string name="History">History</string>
+    <string name="history_to_main">Выбор напитка</string>
+    <string name="settings_to_receive">Далее</string>
+    <string name="settings_sugar_text">Выбор количества сахара</string>
+    <string name="settings_cup_text">Выбор размера кружки</string>
+    <string name="coffee_img">coffeeImg</string>
+    <string name="receive_to_save">Выпить</string>
+</resources>
