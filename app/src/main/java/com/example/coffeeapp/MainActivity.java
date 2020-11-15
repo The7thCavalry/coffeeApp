@@ -119,6 +119,8 @@ public class MainActivity extends AppCompatActivity implements MainRecyclerViewA
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        thread.interrupt();
+
         // set up the RecyclerView
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new MainRecyclerViewAdapter(this, coffeeNames);
